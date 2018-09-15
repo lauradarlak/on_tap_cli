@@ -1,5 +1,9 @@
-require "on_tap_cli/version"
+#
+# require ‘open-uri’
+# require ‘nokogiri’
+require 'pry'
 
-module OnTapCli
-  # Your code goes here...
-end
+#all other file dependencies
+require_relative './on_tap_cli/version'
+require_relative './on_tap_cli/beers'
+require_relative './on_tap_cli/cli'
